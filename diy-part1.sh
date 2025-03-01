@@ -14,5 +14,5 @@
 #sed -i 's/^#\(.*helloworld\)/\1/' feeds.conf.default
 
 # Add a feed source
-echo "src-git nikki https://github.com/nikkinikki-org/OpenWrt-nikki.git;main" >>feeds.conf.default
+echo "src-git nikki https://github.com/nikkinikki-org/OpenWrt-nikki" >>feeds.conf.default
 echo "src-git istore https://github.com/linkease/istore" >> ./feeds.conf.default
